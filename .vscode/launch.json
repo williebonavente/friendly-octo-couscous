@@ -1,0 +1,343 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "SalesReporter",
+            "request": "launch",
+            "mainClass": "Array.SalesReporter",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temperature",
+            "request": "launch",
+            "mainClass": "Array.Temperature",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "AverageAnalyze",
+            "request": "launch",
+            "mainClass": "Array.AverageAnalyze",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temp2",
+            "request": "launch",
+            "mainClass": "Array.Temp2",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Month",
+            "request": "launch",
+            "mainClass": "Array.Month",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ShiftingElements",
+            "request": "launch",
+            "mainClass": "Array.ShiftingElements",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RandomShuffling",
+            "request": "launch",
+            "mainClass": "Array.RandomShuffling",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SmallestIndexOfLargestElement",
+            "request": "launch",
+            "mainClass": "Array.SmallestIndexOfLargestElement",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Compare",
+            "request": "launch",
+            "mainClass": "Array.Compare",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Total",
+            "request": "launch",
+            "mainClass": "Array.Total",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Letters",
+            "request": "launch",
+            "mainClass": "Array.Letters",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Randomly",
+            "request": "launch",
+            "mainClass": "Array.Randomly",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Initialize",
+            "request": "launch",
+            "mainClass": "Array.Initialize",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Median",
+            "request": "launch",
+            "mainClass": "Array.Median",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temppp",
+            "request": "launch",
+            "mainClass": "Array.Temppp",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temp1",
+            "request": "launch",
+            "mainClass": "Array.Temp1",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "DeckOfCards",
+            "request": "launch",
+            "mainClass": "Array.DeckOfCards",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temp",
+            "request": "launch",
+            "mainClass": "Array.Temp",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Sqrt",
+            "request": "launch",
+            "mainClass": "math.Sqrt",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "PredefStr",
+            "request": "launch",
+            "mainClass": "escapeSqnce.PredefStr",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "CharacterManip",
+            "request": "launch",
+            "mainClass": "escapeSqnce.CharacterManip",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "escapeSqnce.TypeCasting",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "StringMe",
+            "request": "launch",
+            "mainClass": "escapeSqnce.StringMe",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Bitwise",
+            "request": "launch",
+            "mainClass": "escapeSqnce.Bitwise",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Assingme",
+            "request": "launch",
+            "mainClass": "escapeSqnce.Assingme",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ScanMe",
+            "request": "launch",
+            "mainClass": "escapeSqnce.ScanMe",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Placeholders",
+            "request": "launch",
+            "mainClass": "escapeSqnce.Placeholders",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "escapeSqnce.Test",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "PopulationProjection",
+            "request": "launch",
+            "mainClass": "PopulationProjection",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "CalculatingEnergy",
+            "request": "launch",
+            "mainClass": "CalculatingEnergy",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Acceleration",
+            "request": "launch",
+            "mainClass": "Acceleration",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SumDigits",
+            "request": "launch",
+            "mainClass": "SumDigits",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "GratuityRate",
+            "request": "launch",
+            "mainClass": "GratuityRate",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "PoundsToKg",
+            "request": "launch",
+            "mainClass": "PoundsToKg",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ConvertMetersToFeet",
+            "request": "launch",
+            "mainClass": "ConvertMetersToFeet",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ComputeArea",
+            "request": "launch",
+            "mainClass": "ComputeArea",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ComputeAverage",
+            "request": "launch",
+            "mainClass": "ComputeAverage",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ComputeChange",
+            "request": "launch",
+            "mainClass": "ComputeChange",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ComputeLoan",
+            "request": "launch",
+            "mainClass": "ComputeLoan",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "CylinderArea",
+            "request": "launch",
+            "mainClass": "CylinderArea",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "DisplayTime",
+            "request": "launch",
+            "mainClass": "DisplayTime",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "EvaluateExpression",
+            "request": "launch",
+            "mainClass": "EvaluateExpression",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "FahrenheitToCelsius",
+            "request": "launch",
+            "mainClass": "FahrenheitToCelsius",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticEquation",
+            "request": "launch",
+            "mainClass": "QuadraticEquation",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SalesTax",
+            "request": "launch",
+            "mainClass": "SalesTax",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ShowCurrentTime",
+            "request": "launch",
+            "mainClass": "ShowCurrentTime",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Temp",
+            "request": "launch",
+            "mainClass": "Temp",
+            "projectName": "one-file_6ec79dad"
+        }
+    ]
+}
