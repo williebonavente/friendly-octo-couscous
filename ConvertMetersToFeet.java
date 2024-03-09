@@ -11,5 +11,6 @@ public class ConvertMetersToFeet {
     double meters = feet * 0.305;
     
     System.out.println(feet + " feet is " + meters + " meters.");
+    input.close();
    }
 }

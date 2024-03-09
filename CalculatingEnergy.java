@@ -14,5 +14,6 @@ public class CalculatingEnergy {
 
         double energyNeeded = amountOfWater * (finalTemperature - initialTemperature) * 4184;
         System.out.println("The energy needed is " + energyNeeded);
+        input.close();
     }
 }

@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LeapYear",
+            "request": "launch",
+            "mainClass": "Loops.LeapYear",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "TestBoolean",
+            "request": "launch",
+            "mainClass": "Loops.TestBoolean",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ComputeTax",
+            "request": "launch",
+            "mainClass": "Loops.ComputeTax",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "BMI",
+            "request": "launch",
+            "mainClass": "Loops.BMI",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RandomRandomRandom",
+            "request": "launch",
+            "mainClass": "Loops.RandomRandomRandom",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Subtraction",
+            "request": "launch",
+            "mainClass": "RandomNumbers.Subtraction",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "TraversingLoop",
+            "request": "launch",
+            "mainClass": "Loops.TraversingLoop",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "NestedLoops",
+            "request": "launch",
+            "mainClass": "Loops.NestedLoops",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Mode",
+            "request": "launch",
+            "mainClass": "Mode",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "SalesReporter",
             "request": "launch",
             "mainClass": "Array.SalesReporter",

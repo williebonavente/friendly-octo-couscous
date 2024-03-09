@@ -14,7 +14,7 @@ public class GratuityRate {
         double total = subtotal + gratuity;
 
         System.out.println("The gratuity rate is " + "$" +gratuity + " and total is " + "$" + total);
-
+        input.close();
     }
 
 }

@@ -15,6 +15,7 @@ public class SumDigits {
         int sum = digit1 + digit2 + digit3 + digit4;
         
         System.out.println("The sum of the digits is " + sum);
+        input.close();
     }
 }
 

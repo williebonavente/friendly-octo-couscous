@@ -11,5 +11,6 @@ public class Acceleration {
         
         double acceleration  = (v1 - v0) / time;
         System.out.println("The average acceleration is " + acceleration); 
+        input.close();
     }
 }
