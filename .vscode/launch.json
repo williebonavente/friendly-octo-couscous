@@ -6,6 +6,104 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PassTwoDimensionalArray",
+            "request": "launch",
+            "mainClass": "TwoDArr.PassTwoDimensionalArray",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RandomShuffling",
+            "request": "launch",
+            "mainClass": "TwoDArr.RandomShuffling",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "GreatestSum",
+            "request": "launch",
+            "mainClass": "TwoDArr.GreatestSum",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SumOfCol",
+            "request": "launch",
+            "mainClass": "TwoDArr.SumOfCol",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SumOfTwoD",
+            "request": "launch",
+            "mainClass": "TwoDArr.SumOfTwoD",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ProcessingArr",
+            "request": "launch",
+            "mainClass": "TwoDArr.ProcessingArr",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RockNPaper",
+            "request": "launch",
+            "mainClass": "Selection.RockNPaper",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RandomPoint",
+            "request": "launch",
+            "mainClass": "Selection.RandomPoint",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SortingInt",
+            "request": "launch",
+            "mainClass": "Selection.SortingInt",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "RandomMonth",
+            "request": "launch",
+            "mainClass": "Selection.RandomMonth",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "SubtractionQuiz",
+            "request": "launch",
+            "mainClass": "Selection.SubtractionQuiz",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ISBN",
+            "request": "launch",
+            "mainClass": "Selection.ISBN",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "TernaryOperator",
+            "request": "launch",
+            "mainClass": "Selection.TernaryOperator",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ChineseZodiac",
+            "request": "launch",
+            "mainClass": "Selection.ChineseZodiac",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "LeapYear",
             "request": "launch",
             "mainClass": "Loops.LeapYear",
