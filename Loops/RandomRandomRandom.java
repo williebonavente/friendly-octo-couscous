@@ -30,7 +30,7 @@ public class RandomRandomRandom {
         for (int k = 0; k < thirdArr.length; k++) {
             thirdArr[k] = (int) (Math.random() * 100);
         }
-
+        
         System.out.println();
         System.out.println("Randomly Generated Numbers: ");
         // Traversing
