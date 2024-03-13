@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "TwoDArr.Main",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "GradeExam",
+            "request": "launch",
+            "mainClass": "TwoDArr.GradeExam",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "PassTwoDimensionalArray",
             "request": "launch",
             "mainClass": "TwoDArr.PassTwoDimensionalArray",
