@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CharacterContinue",
+            "request": "launch",
+            "mainClass": "CharacterContinue",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "DivisiBle",
+            "request": "launch",
+            "mainClass": "DivisiBle",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "Target",
+            "request": "launch",
+            "mainClass": "Target",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "VowelMoment",
+            "request": "launch",
+            "mainClass": "VowelMoment",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "Main",
             "request": "launch",
             "mainClass": "TwoDArr.Main",
