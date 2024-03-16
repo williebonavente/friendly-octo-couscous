@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LazyCarterSequence",
+            "request": "launch",
+            "mainClass": "LazyCarterSequence",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "CharacterContinue",
             "request": "launch",
             "mainClass": "CharacterContinue",
