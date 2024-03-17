@@ -152,3 +152,50 @@ two-point line equation with a heading.\
 and displays the point-slope line equation with a heading.
 `display_slope_intcpt`– Takes two input parameters, the slope and y-intercept, and displays the
 slope-intercept line equation with a heading.
+
+# ΩMG
+
+A resistor is a circuit device designed to have a specific resistance value between its ends.
+Resistance values are expressed in ohms $(Ω)$ or kilo-ohms $(kΩ)$. Resistors are frequently marked
+with colored bands that encode their resistance values, as shown in the figure. The first two bands
+are digits, and the third is a power-of-ten multiplier.
+
+![Resistor](/assets/img/resistor.png)
+
+The table below shows the meanings of each band color. For example, if the first band is green,
+the second band is black, and the third is orange, the resistor has a value of $50 \times 103Ω$ or $50 kΩ$.
+
+The information in the table can be stored in a C program as an array of strings.
+
+`char COLOR_CODES[10] [7] = {“black”, “brown”, “red”, “orange”, “yellow”, “green”, “blue”, “violet”, “gray”, “white”};`
+
+Notice that “red” is `COLOR_CODES[2]` and has a digit value of $2$ and a multiplier value of $10^2$. In
+general, `COLOR_CODES[n]` has digit value `n` and multiplier value $10^n$.
+
+![](./assets/img/table-resistor.png)
+
+Write a program that prompts for the colors of Band 1, Band 2, and Band 3, and then displays the
+resistance in kilo-ohms. Include a helper function search that takes three parameters – the list
+of strings, the size of the list, and a target string, and returns the subscript of the list element that
+matches the target or returns -1 if the target is not in the list. Here is a short sample run.
+
+```sample run
+Enter the colors of the resistor’s three bands, beginning with the band nearest the end. Type the colors in lowercase letters only,
+NO CAPS.
+Band 1 => green
+Band 2 => black
+Band 3 => yellow
+Resistance value: 500 kilo-ohms
+Do you want to decode another resistor?
+=> y
+
+Enter the colors of the resistor’s three bands, beginning with the
+band nearest the end. Type the colors in lowercase letters only,
+NO CAPS.
+Band 1 => brown
+Band 2 => vilet
+Band 3 => gray
+Invalid color: vilet
+Do you want to decode another resistor?
+=> n
+```
