@@ -90,7 +90,7 @@ problem number and once again at the end of the loop body to update it.
 
 The table below summarizes three commonly used mathematical models of non vertical straight
 lines. \
-![Table](/assets/img/table-slope.png)
+![Table](./assets/img/table-slope.png)
 
 Design and implement a program that permits the user to convert either two-point form or point-
 slope form into slope-intercept form. Your program should interact with the user as follows:
@@ -160,7 +160,7 @@ Resistance values are expressed in ohms $(Ω)$ or kilo-ohms $(kΩ)$. Resistors a
 with colored bands that encode their resistance values, as shown in the figure. The first two bands
 are digits, and the third is a power-of-ten multiplier.
 
-![Resistor](/assets/img/resistor.png)
+![Resistor](./assets/img/resistor.png)
 
 The table below shows the meanings of each band color. For example, if the first band is green,
 the second band is black, and the third is orange, the resistor has a value of $50 \times 103Ω$ or $50 kΩ$.
