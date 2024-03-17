@@ -85,3 +85,70 @@ $ml/hr$ (rounded) as function value.
 
 **HINT**: Use a sentinel-controlled loop. Call `get_problem` once before the loop to initialize the
 problem number and once again at the end of the loop body to update it.
+
+## Non-vertical Straight Lines
+
+The table below summarizes three commonly used mathematical models of non vertical straight
+lines. \
+![Table](/assets/img/table-slope.png)
+
+Design and implement a program that permits the user to convert either two-point form or point-
+slope form into slope-intercept form. Your program should interact with the user as follows:
+
+```sample run
+Select the form that you would like to convert to slope-intercept
+form:
+1) Two-point form (you know the points on the line)
+2) Point–slope form (you know the line’s slope and one point)
+=> 2
+
+Enter the slope=> 4.2
+Enter the x-y coordinates of the point separated by a space=> 1 1
+
+Point-slope form
+       y – 1.00 = 4.20 (x – 1.00)
+
+Slope-intercept form
+       y = 4.20x – 3.20
+
+Do another conversion (Y or N)=> Y
+
+Select the form that you would like to convert to slope-intercept
+form:
+1) Two-point form (you know the points on the line)
+2) Point–slope form (you know the line’s slope and one point)
+=> 1
+
+Enter the x-y coordinates of the first point separated by a space=>
+4 3
+Enter the x-y coordinates of the second point separated by a space=>
+-2 1
+
+Two-point form
+      (1.00 – 3.00)
+m = ----------------
+      (-2.00 – 4.00)
+
+Slope-intercept form
+y = 0.33x + 1.66
+
+Do another conversion (Y or N)=> N
+```
+
+Implement the following functions:\
+`get_problem` – Displays the user menu, then inputs and returns as the function value the problem
+number selected.\
+`get2_pt` – Prompts the user for the x-y coordinates of both points, inputs the four coordinates,
+and returns them to the calling function through output parameters.\
+`get_pt_slope` – Prompts the user for the slope and x-y coordinates of the point, inputs the three
+values and returns them to the calling function through output parameters.
+`slope_intcpt_from2_pt` – Takes four input parameters, the x-y coordinates of two points, and
+returns through output parameters the slope (m) and y-intercept (b).
+`intcpt_from_pt_slope` – Takes three input parameters, the x-y coordinates of one point and the
+slope, and returns as the function value the y-intercept.\
+`display2_pt` – Takes four input parameters, the x-y coordinates of two points, and displays the
+two-point line equation with a heading.\
+`display_pt_slope` – Takes three input parameters, the x-y coordinates of one point and the slope,
+and displays the point-slope line equation with a heading.
+`display_slope_intcpt`– Takes two input parameters, the slope and y-intercept, and displays the
+slope-intercept line equation with a heading.
