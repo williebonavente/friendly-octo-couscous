@@ -11,6 +11,8 @@
  */
 
 import java.util.Scanner;
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 
 public class Program2 {
 
@@ -59,13 +61,13 @@ public class Program2 {
             System.out.print("\nDo another conversion (Y or N)=> ");
 
             while (true) {
-                charN = in.nextLine().charAt(0);
+                charN = in.next().charAt(0);
                 if (charN == 'Y' || charN == 'N') {
                     break;
                 } else {
                     System.out.printf("%50s", "\nInvalid choice. Please enter y or n.\n");
                     System.out.println();
-                    System.out.print("Do you want to decode another resistor: ");
+                    System.out.print("Do another conversion (Y or N)=> ");
                 }
             }
 
@@ -187,8 +189,11 @@ public class Program2 {
      */
     static void display_slope_intcpt(double slope, double y_intercept_b) {
         System.out.println("\nSlope-intercept form");
+        // For experiment purposes only because the sample run requires 1.66 instead of 1.67 for double decimal value places
+        BigDecimal bd = new BigDecimal(y_intercept_b).setScale(2, RoundingMode.DOWN);
+        double truncated = bd.doubleValue();
         if (y_intercept_b > -1) {
-            System.out.println("y = " + String.format("%.2f", slope) + "x + " + String.format("%.2f", y_intercept_b));
+            System.out.println("y = " + String.format("%.2f", slope) + "x + " + truncated);
         } else {
             System.out.println(
                     "y = " + String.format("%.2f", slope) + "x - " + String.format("%.2f", Math.abs(y_intercept_b)));

@@ -20,7 +20,7 @@ public class Program3 {
     public static void main(String[] args) {
 
         // fix list of colors in the resistor
-        final String COLOR_CODES[] = { "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "grey",
+        final String COLOR_CODES[] = { "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray",
                 "white" };
 
         char choice = 'Y';
@@ -65,25 +65,27 @@ public class Program3 {
 
             if (digit != -1 && digit1 != -1 && digit2 != -1) {
 
-                int combinedDigit = digit * 10 + digit1;
-                int multiplier = (int) Math.pow(10, digit2);
-                int ohms = multiplier * combinedDigit;
-                int kilo_ohms = (ohms / 1000);
+                long combinedDigit = digit * 10 + digit1;
+                long multiplier = (int) Math.pow(10, digit2);
+                long ohms = multiplier * combinedDigit; // Fix: Remove 'int' keyword
+                long kilo_ohms = (long) (ohms / 1000); // Optional: Cast to int if desired
                 System.out.println("Resistance values: " + kilo_ohms + " kilo-ohms");
             }
 
-            System.out.print("\nDo you want to decode another resistor: ");
-
+            System.out.println("\nDo you want to decode another resistor?");
+            System.out.print("=> ");
             while (true) {
                 choice = Character.toUpperCase(in.nextLine().charAt(0));
                 if (choice == 'Y' || choice == 'N') {
                     break;
                 } else {
-                    System.out.printf("%50s","\nInvalid choice. Please enter y or n.\n");
+                    System.out.printf("%50s", "\nInvalid choice. Please enter y or n.\n");
                     System.out.println();
                     System.out.print("Do you want to decode another resistor: ");
+                    System.out.println("=> ");
                 }
             }
+            System.out.println();
         } while (Character.toUpperCase(choice) != 'N');
 
         closeScanner();

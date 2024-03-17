@@ -86,6 +86,10 @@ $ml/hr$ (rounded) as function value.
 **HINT**: Use a sentinel-controlled loop. Call `get_problem` once before the loop to initialize the
 problem number and once again at the end of the loop body to update it.
 
+**Output in the Command Line**
+
+![Intravenous Rate Sample Run ](./assets/img/program1.png)
+
 ## Non-vertical Straight Lines
 
 The table below summarizes three commonly used mathematical models of non vertical straight
@@ -153,6 +157,10 @@ and displays the point-slope line equation with a heading.
 `display_slope_intcpt`– Takes two input parameters, the slope and y-intercept, and displays the
 slope-intercept line equation with a heading.
 
+**Output in the Command Line**
+
+![Non Vertical Straight Line](./assets/img/program2.png)
+
 # ΩMG
 
 A resistor is a circuit device designed to have a specific resistance value between its ends.
@@ -172,7 +180,7 @@ The information in the table can be stored in a C program as an array of strings
 Notice that “red” is `COLOR_CODES[2]` and has a digit value of $2$ and a multiplier value of $10^2$. In
 general, `COLOR_CODES[n]` has digit value `n` and multiplier value $10^n$.
 
-![](./assets/img/table-resistor.png)
+![Table of Value Multiplier](./assets/img/table-resistor.png)
 
 Write a program that prompts for the colors of Band 1, Band 2, and Band 3, and then displays the
 resistance in kilo-ohms. Include a helper function search that takes three parameters – the list
@@ -199,3 +207,7 @@ Invalid color: vilet
 Do you want to decode another resistor?
 => n
 ```
+
+**Output in the Command Line**
+
+![Non Vertical Straight Line](./assets/img/program3.png)
