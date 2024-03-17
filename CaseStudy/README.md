@@ -153,7 +153,7 @@ slope, and returns as the function value the y-intercept.\
 `display2_pt` – Takes four input parameters, the x-y coordinates of two points, and displays the
 two-point line equation with a heading.\
 `display_pt_slope` – Takes three input parameters, the x-y coordinates of one point and the slope,
-and displays the point-slope line equation with a heading.
+and displays the point-slope line equation with a heading.\
 `display_slope_intcpt`– Takes two input parameters, the slope and y-intercept, and displays the
 slope-intercept line equation with a heading.
 
