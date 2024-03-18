@@ -1,8 +1,9 @@
 
 /** Program Name: Intravenous Rate Assistant 
- * @author Willie M. Bonavente
- * @date: March 16, 2023 
- * @version: 1.5
+ * @author Willie M. Bonavente, Dariel Taberara, Honeylet Igot
+ * @date-started: March 16, 2024
+ * @date-latest version - March 18, 2024 
+ * @version: 2.5
  * @remarks: Implement Procedural Programming.
  * Fix the get_problem() function
  * Creating the stub function first.
@@ -12,7 +13,7 @@
 
 import java.util.Scanner;
 
-public class Program1 {
+public class IntravenousRateAssistant {
     private static final Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
