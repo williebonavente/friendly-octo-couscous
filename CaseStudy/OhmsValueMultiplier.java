@@ -2,9 +2,10 @@
 /**
  * Program Name: ΩMG.
  * 
- * @author Willie M. Bonavente
- * @date: March 17, 2023
- * @version: 1
+ * @author Willie M. Bonavente, Dariel Taberara, Honeylet Igot, and Ellianna Cecilia Principe
+ * @date: March 17, 2024
+ * @date-latest version: March 18, 2024
+ * @version: 2
  * @remarks: Implement Procedural Programming.
  * 
  *           Creating the stub function first.
@@ -14,7 +15,7 @@
 
 import java.util.Scanner;
 
-public class Program3 {
+public class OhmsValueMultiplier {
     private static final Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
