@@ -1,9 +1,9 @@
 
 /** Program Name: Intravenous Rate Assistant 
- * @author Willie M. Bonavente, Dariel Taberara, Honeylet Igot
+ * @author Willie M. Bonavente, Kevin Joshua Delos Reyes, and Harry Asence
  * @date-started: March 16, 2024
- * @date-latest version - March 18, 2024 
- * @version: 2.5
+ * @date-latest version - March 19, 2024 
+ * @version: 3
  * @remarks: Implement Procedural Programming.
  * Fix the get_problem() function
  * Creating the stub function first.

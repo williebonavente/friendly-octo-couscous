@@ -1,9 +1,9 @@
 
 /** Program Name: Non-vertical Straight Lines. 
- * @author Willie M. Bonavente, Dariel Taberara, Honeylet Igot, and Ellianna Cecilia Principe
+ *  @author Willie M. Bonavente, Kevin Joshua Delos Reyes, and Harry Asence
  * @date: March 17, 2024
  * date-latest version: March 18, 2024
- * @version: 2
+ * @version: 2.5
  * @remarks: Implement Procedural Programming.
  * 
  * Creating the stub function first.
