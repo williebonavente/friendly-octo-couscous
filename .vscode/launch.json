@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FileDemonstrationTest",
+            "request": "launch",
+            "mainClass": "FileHandling.FileDemonstrationTest",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "GetPath",
+            "request": "launch",
+            "mainClass": "FileHandling.GetPath",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "LazyCarterSequence",
             "request": "launch",
             "mainClass": "LazyCarterSequence",
