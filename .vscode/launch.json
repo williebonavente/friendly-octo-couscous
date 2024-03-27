@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OhmsCalculator",
+            "request": "launch",
+            "mainClass": "OhmsCalculator",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
+            "name": "ohmsCalculator",
+            "request": "launch",
+            "mainClass": "ohmsCalculator",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "OhmsValueMultiplier",
             "request": "launch",
             "mainClass": "OhmsValueMultiplier",
