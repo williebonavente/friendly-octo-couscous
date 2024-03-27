@@ -1,5 +1,4 @@
 package Enumss;
-import java.util.Currency;
 import java.util.Scanner;
 
 public class Enums6 {
