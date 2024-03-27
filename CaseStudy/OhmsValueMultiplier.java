@@ -19,7 +19,11 @@ public class OhmsValueMultiplier {
     private static final Scanner in = new Scanner(System.in);
 
     public static void main(String[] args) {
+        decodeResistor();
+        closeScanner();
+    }
 
+    public static void decodeResistor() {
         // fix list of colors in the resistor
         final String COLOR_CODES[] = { "black", "brown", "red", "orange", "yellow", "green", "blue", "violet", "gray",
                 "white" };
@@ -88,8 +92,6 @@ public class OhmsValueMultiplier {
             }
             System.out.println();
         } while (Character.toUpperCase(choice) != 'N');
-
-        closeScanner();
     }
 
     public static void closeScanner() {
