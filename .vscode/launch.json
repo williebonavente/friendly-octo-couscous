@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "OhmsValueMultiplier",
+            "request": "launch",
+            "mainClass": "OhmsValueMultiplier",
+            "projectName": "one-file_6ec79dad"
+        },
+        {
+            "type": "java",
             "name": "FileDemonstrationTest",
             "request": "launch",
             "mainClass": "FileHandling.FileDemonstrationTest",
